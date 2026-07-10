@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental PS Gaming Zone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            background-color: #0b0b0b;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #003099;
+        }
+        header h1 {
+            color: #0070d2;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background-color: #262626;
+            border-radius: 10px;
+            padding: 20px;
+            width: 45%;
+            min-width: 280px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            text-align: center;
+            border: 1px solid #333;
+        }
+        .card.ps3 { border-top: 5px solid #ff0000; }
+        .card.ps4 { border-top: 5px solid #003099; }
+        .card h2 {
+            margin-bottom: 15px;
+        }
+        .price-list {
+            list-style: none;
+            margin: 20px 0;
+            text-align: left;
+            padding-left: 20px;
+        }
+        .price-list li {
+            margin: 10px 0;
+        }
+        .btn-booking {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-booking:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0b0b0b;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎮 RENTAL PS GAMING ZONE 🎮</h1>
+        <p>Sewa PS3 & PS4 Murah, Gampang, dan Terpercaya!</p>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h2>Daftar Harga & Unit</h2>
+            <p>Silakan pilih paket rental di bawah ini. Untuk pemesanan langsung klik tombol WhatsApp.</p>
+        </div>
+
+        <div class="services">
+            <div class="card ps3">
+                <h2>PlayStation 3</h2>
+                <p>Status: 🟢 Ready</p>
+                <ul class="price-list">
+                    <li>⚡ 1 Jam: Rp 5.000</li>
+                    <li>⚡ 3 Jam: Rp 12.000</li>
+                    <li>⚡ 24 Jam (Bawa Pulang): Rp 40.000</li>
+                </ul>
+                <a href="https://wa.me/62895370656151?text=Halo%20Admin,%20saya%20mau%20booking%20PS%203" target="_blank" class="btn-booking">Hubungi via WA</a>
+            </div>
+
+            <div class="card ps4">
+                <h2>PlayStation 4</h2>
+                <p>Status: 🟢 Ready</p>
+                <ul class="price-list">
+                    <li>⚡ 1 Jam: Rp 8.000</li>
+                    <li>⚡ 3 Jam: Rp 20.000</li>
+                    <li>⚡ 24 Jam (Bawa Pulang): Rp 75.000</li>
+                </ul>
+                <a href="https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20mau%20booking%20PS%204" target="_blank" class="btn-booking">Hubungi via WA</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Rental PS Gaming Zone. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
